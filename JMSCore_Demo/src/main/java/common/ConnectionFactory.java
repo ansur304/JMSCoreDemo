@@ -21,7 +21,7 @@ public interface ConnectionFactory {
 	}
 	
 	public default Connection createConnection() {
-		ActiveMQConnectionFactory factory = new ActiveMQConnectionFactory("tcp://WL10943:61616");
+		ActiveMQConnectionFactory factory = new ActiveMQConnectionFactory("tcp://WL11548:61616");
 		Connection connection = null;
 		try {
 			connection = factory.createConnection();
